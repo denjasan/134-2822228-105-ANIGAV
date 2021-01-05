@@ -196,4 +196,5 @@ def logout():
 
 
 if __name__ == '__main__':
+    # init()  # если нет базы данных
     app.run(debug=True)
